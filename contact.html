@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Junyeong Kim Portfolio Site | Contacts Page </title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contact_style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <!-- Bootstrap for Icons, Design -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!-- --------------------------- -->
+
+</head>
+
+<body>
+
+  <!-- Start of Navigation code -->
+  <nav>
+    <li class="name"><a href="index.html"> James Kim </a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a class="active" href="contact.html">Contact</a></li>
+  </nav>
+  <!-- End of Navigation code -->
+
+  <article>
+    <h1>Send Me A Message</h1>
+
+
+    <div class="contact_page">
+
+      <!-- My Info -->
+      <div class="my_info">
+        <h3>James Kim</h3>
+        <ul>
+          <li><i class="bi bi-house"> Raleigh, NC</i></li>
+          <br>
+          <li><i class="bi bi-phone"> (919) 395-0270 </i></li>
+          <br>
+          <li><i class="bi bi-envelope"> junyeongkim1@gmail.com</i></li>
+        </ul>
+      </div>
+      <!-- End of My Info -->
+
+
+      <!-- User Info -->
+      <div class="contact">
+        <h3>Contact Me</h3>
+
+        <form id="contactForm">
+          <p>
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" placeholder="First Name" autofocus required>
+          </p>
+
+          <p>
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" placeholder="Last Name" required>
+          </p>
+
+          <p>
+            <label for="email">Email address</label>
+            <input type="email" name="email" placeholder="Email Address" required>
+          </p>
+
+          <p>
+            <label for="phone">Phone number</label>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+          </p>
+
+          <p class="full">
+            <label for="message">Message</label>
+            <textarea name="message" rows="5" cols="30" rows="10" placeholder="Enter Your Message" required>
+              </textarea>
+          </p>
+
+          <p class="full">
+            <button>Submit</button>
+          </p>
+
+        </form>
+      </div>
+      <!-- End User Info -->
+
+    </div>
+
+  </article>
+
+  <footer>
+
+    <!-- Button -->
+    <a href="contact.html">
+      <button class="button">
+        Contact
+        <div class="button__horizontal"></div>
+        <div class="button__vertical"></div>
+      </button>
+    </a>
+    <!-- End of Button -->
+
+
+    <!-- Social Links -->
+    <ul>
+      <li><a href="https://www.instagram.com/james__jy" target="_blank" class="social">
+          <img src="images/instagram.png" /></a>
+      </li>
+      <li><a href="https://www.linkedin.com/in/junyeongkim/" target="_blank" class="social">
+          <img src="images/linkedin.png" /></a>
+      </li>
+      <li><a href="https://github.com/jykim11" target="_blank" class="social">
+          <img src="images/github.png" /></a>
+      </li>
+    </ul>
+    <!-- End of Social Links -->
+
+    <p>&copy;2021, James Kim. All Rights Reserved </p>
+    <p>
+      <!-- Script to display last modified time & date -->
+      <script>
+        document.write("Page last updated on " + document.lastModified);
+      </script>
+    </p>
+
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Junyeong Kim Portfolio Site | Resume Page </title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+  <!-- Start of Navigation code -->
+  <nav>
+    <li class="name"><a href="index.html"> James Kim </a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a class="active" href="resume.html">Resume</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </nav>
+  <!-- End of Navigation code -->
+
+  <article>
+    <h1>My Resume</h1>
+
+    <!-- Embedded resume to display on website -->
+    <embed src="kim-junyeong-resume.pdf" width="900px" height="1000px" />
+
+
+    <!-- External link to resume -->
+    <h2>External link to resume</h2>
+    <p><a class="resume" href="kim-junyeong-resume.pdf" target="_blank">My Resume</a></p>
+
+  </article>
+
+  <footer>
+
+    <!-- Button -->
+    <a href="contact.html">
+      <button class="button">
+        Contact
+        <div class="button__horizontal"></div>
+        <div class="button__vertical"></div>
+      </button>
+    </a>
+    <!-- End of Button -->
+
+
+    <!-- Social Links -->
+    <ul>
+      <li><a href="https://www.instagram.com/james__jy" target="_blank" class="social">
+          <img src="images/instagram.png" /></a>
+      </li>
+      <li><a href="https://www.linkedin.com/in/junyeongkim/" target="_blank" class="social">
+          <img src="images/linkedin.png" /></a>
+      </li>
+      <li><a href="https://github.com/jykim11" target="_blank" class="social">
+          <img src="images/github.png" /></a>
+      </li>
+    </ul>
+    <!-- End of Social Links -->
+
+    <p>&copy;2021, James Kim. All Rights Reserved </p>
+    <p>
+      <!-- Script to display last modified time & date -->
+      <script>
+        document.write("Page last updated on " + document.lastModified);
+      </script>
+    </p>
+
+  </footer>
+</body>
+
+</html>

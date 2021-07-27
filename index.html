@@ -1,34 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <title>Junyeong Kim Portfolio Site | Home Page </title>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="utf-8">
- </head>
- <body>
-  <!-- Start of Navigation code -->
-  <ul class="topnav">
-   <li><a class="active" href="index.html">Home</a></li>
-   <li><a href="about.html">About</a></li>
-   <li><a href="classes.html">Classes</a></li>
-   <li><a href="interests.html">Interests</a></li>
-  </ul>
-   <!-- End of Navigation code -->
-  <article>
-   <h1> Welcome to James's First Website </h1>
-    <p> Contact Information : </p>
-    <a href='mailt&#111;&#58;&#106;yki%6&#68;1&#64;%65m&#97;i&#37;6C&#46;u%6E%63&#46;e%64&#117;'>jyki&#109;&#49;&#64;email&#46;un&#99;&#46;e&#100;u</a>
-    <p></p>
-      <img class="center" src="south.korea.jpg" alt="Busy Night in South Korea">
-  </article>
- <footer>
-  <p>
-   <script>
-       document.write("Page last updated on " + document.lastModified);
-   </script>
-  </p>
- </footer>
+
+<head>
+    <title>Junyeong Kim Portfolio Site | Home Page </title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <!-- Start of Navigation code -->
+    <nav>
+        <li class="name"><a href="index.html"> James Kim </a></li>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </nav>
+    <!-- End of Navigation code -->
+
+    <article>
+        <header>
+            <h1> James Kim's Portfolio</h1>
+
+            <!-- My Image -->
+            <div class="container">
+                <div class="container_image">
+                    <div class="container_info container_author"><a class="link"
+                            href="https://www.linkedin.com/in/junyeongkim/" target="_blank">James Kim</a></div>
+                    <div class="container_info container_location">Raleigh, NC </div>
+                    <div class="container_info container_location">Major: Computer Science</div>
+                    <div class="container_info container_location">School: UNC Chapel-Hill</div>
+                </div>
+            </div>
+            <!-- End of My Image -->
+        </header>
+
+        <!-- About me -->
+        <div class="card">
+            <div class="img">
+                <img src="images/about.jpg">
+                <p>About me</p>
+            </div>
+            <div class="details">
+                <h2>About me</h2>
+                <p>My name is Junyeong Kim, but I prefer to be called by James. I am a Junior at University of North
+                    Carolina at Chapel-Hill majoring in Computer Science. I started coding ever since I was in high
+                    school and instantly fell into the magic of how different codes harmonize together. I've worked on
+                    several projects in Java, Python, C/C++, HTML5, CSS, and JavaScript to further my knowledge and
+                    gain real-world experience.</p>
+                <br>
+
+                <h1><b>Hobbies/Passions</b></h1>
+                <ul class="hobbies">
+                    <li>Basketball</li>
+                    <li>Coding</li>
+                    <li>Tennis</li>
+                    <li>Playing Games</li>
+
+            </div>
+        </div>
+        <!-- End of About me -->
+
+
+        <!-- Hometown -->
+        <div class="card">
+            <div class="img">
+                <img src="images/hometown.jpeg">
+                <p>Hometown</p>
+            </div>
+            <div class="details">
+                <h2>Hometown</h2>
+                <p>I was born in Changwon, South Korea and immigrated to United States in 2005 when I was 8 years old.
+                </p>
+            </div>
+        </div>
+        <!-- End of Hometown -->
+
+
+        <!-- Skills -->
+        <div class="card">
+            <div class="img">
+                <img src="images/languages.jpg">
+                <p>Skills</p>
+            </div>
+            <div class="details">
+                <h2>Programming Languages</h2>
+                <p>Proficient : </p>
+                <ul class="skills">
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>C/C++</li>
+                    <li>JavaScript</li>
+                    <li>HTML5/CSS</li>
+            </div>
+        </div>
+        <!-- End of Skills -->
+
+    </article>
+
+    <footer>
+
+        <!-- Button -->
+        <a href="contact.html">
+            <button class="button">
+                Contact
+                <div class="button__horizontal"></div>
+                <div class="button__vertical"></div>
+            </button>
+        </a>
+        <!-- End of Button -->
+
+
+        <!-- Social Links -->
+        <ul>
+            <li><a href="https://www.instagram.com/james__jy" target="_blank" class="social">
+                    <img src="images/instagram.png" /></a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/junyeongkim/" target="_blank" class="social">
+                    <img src="images/linkedin.png" /></a>
+            </li>
+            <li><a href="https://github.com/jykim11" target="_blank" class="social">
+                    <img src="images/github.png" /></a>
+            </li>
+        </ul>
+        <!-- End of Social Links -->
+
+        <p>&copy;2021, James Kim. All Rights Reserved </p>
+        <p>
+            <!-- Script to display last modified time & date -->
+            <script>
+                document.write("Updated on " + document.lastModified);
+            </script>
+        </p>
+
+    </footer>
 </body>
+
 </html>
